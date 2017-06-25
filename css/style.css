@@ -23,13 +23,12 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
 
 .header-top ul {
     float: right;
-    padding-top: 9px;
+    padding-top: 24px;
+    width: 178px;
 }
 
 .header-top li {
     display: inline-block;
-    float: left;
-    padding-left: 6px;
 }
 
 .resize {
@@ -52,9 +51,14 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
     display: block;
 }
 
+a.vk, a.fb, a.gb {
+	text-indent: -9000px;
+}
+
 .vk {
     position: relative;
     display: inline-block;
+    left: 80px;
 }
 
 .vk:before {
@@ -68,8 +72,9 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
 }
 
 .fb {
-     position: relative;
-     display: inline-block;
+    position: relative;
+    display: inline-block;
+    left: 40px;
  }
 
 .fb:before {
@@ -115,7 +120,7 @@ a.logo_left {
     min-width: 178px;
     color: #0f680e;
     font-size: 20px;
-  }
+}
 
 .contacts p {
     padding-left: 30px;
@@ -133,13 +138,16 @@ a.logo_left {
 .contacts .icon-sk:before {
     position: absolute;
     content: "";
-    margin: 3px 0 0 -26px;
+    top: 3px;
+    left: 9px;
     width: 21px;
     height: 20px;
     background: url(../images/sprite.png) no-repeat 0 -33px;
 }
 
 .skype .icon-sk {
+    position: relative;
+    padding-left: 35px;
     color: #1200ff;
     font-size: 16px;
     font-style: italic;
@@ -341,13 +349,14 @@ footer {
     background: linear-gradient(to top, #44BA5B, #3D9B50);
    }
 
-.footer_middle li {
-    float: left;
-    padding-top: 12px;
+
+.img-list {
+    display: flex;
+    justify-content: space-between;
 }
 
-.list {
-    padding-left: 48px;
+.footer_middle li {
+    padding-top: 12px;
 }
 
 .footer_bottom p {
