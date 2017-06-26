@@ -23,21 +23,14 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
 
 .header-top ul {
     float: right;
-<<<<<<< HEAD
     padding-top: 24px;
     width: 178px;
-=======
-    padding-top: 9px;
->>>>>>> a6e0b5026701ab069566a3d01238a867466b0779
 }
 
 .header-top li {
     display: inline-block;
-<<<<<<< HEAD
-=======
     float: left;
     padding-left: 6px;
->>>>>>> a6e0b5026701ab069566a3d01238a867466b0779
 }
 
 .resize {
@@ -60,7 +53,6 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
     display: block;
 }
 
-<<<<<<< HEAD
 a.vk, a.fb, a.gb {
 	text-indent: -9000px;
 }
@@ -69,11 +61,6 @@ a.vk, a.fb, a.gb {
     position: relative;
     display: inline-block;
     left: 80px;
-=======
-.vk {
-    position: relative;
-    display: inline-block;
->>>>>>> a6e0b5026701ab069566a3d01238a867466b0779
 }
 
 .vk:before {
@@ -87,14 +74,9 @@ a.vk, a.fb, a.gb {
 }
 
 .fb {
-<<<<<<< HEAD
     position: relative;
     display: inline-block;
     left: 40px;
-=======
-     position: relative;
-     display: inline-block;
->>>>>>> a6e0b5026701ab069566a3d01238a867466b0779
  }
 
 .fb:before {
@@ -140,11 +122,8 @@ a.logo_left {
     min-width: 178px;
     color: #0f680e;
     font-size: 20px;
-<<<<<<< HEAD
 }
-=======
-  }
->>>>>>> a6e0b5026701ab069566a3d01238a867466b0779
+
 
 .contacts p {
     padding-left: 30px;
@@ -162,23 +141,15 @@ a.logo_left {
 .contacts .icon-sk:before {
     position: absolute;
     content: "";
-<<<<<<< HEAD
     top: 3px;
-    left: 9px;
-=======
-    margin: 3px 0 0 -26px;
->>>>>>> a6e0b5026701ab069566a3d01238a867466b0779
+    left: -28px;
     width: 21px;
     height: 20px;
     background: url(../images/sprite.png) no-repeat 0 -33px;
 }
 
 .skype .icon-sk {
-<<<<<<< HEAD
     position: relative;
-    padding-left: 35px;
-=======
->>>>>>> a6e0b5026701ab069566a3d01238a867466b0779
     color: #1200ff;
     font-size: 16px;
     font-style: italic;
@@ -380,7 +351,6 @@ footer {
     background: linear-gradient(to top, #44BA5B, #3D9B50);
    }
 
-<<<<<<< HEAD
 
 .img-list {
     display: flex;
@@ -391,7 +361,7 @@ footer {
     padding-top: 12px;
 }
 
-=======
+
 .footer_middle li {
     float: left;
     padding-top: 12px;
@@ -401,7 +371,6 @@ footer {
     padding-left: 48px;
 }
 
->>>>>>> a6e0b5026701ab069566a3d01238a867466b0779
 .footer_bottom p {
     font-size: 14px;
     line-height: 57px;
