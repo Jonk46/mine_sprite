@@ -29,8 +29,6 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
 
 .header-top li {
     display: inline-block;
-    float: left;
-    padding-left: 6px;
 }
 
 .resize {
@@ -136,7 +134,6 @@ a.logo_left {
     clear: both;
     color: #0f680e;
 }
-
 
 .contacts .icon-sk:before {
     position: absolute;
@@ -332,12 +329,12 @@ footer {
     color: #000000;
     font-size: 20px;
     font-weight: normal;
-   }
+}
 
 .contacts_2 p {
     padding-left: 38px;
     font-size: 16px;
-   }
+}
 
 .contacts_2 p:after {
     content: "";
@@ -349,7 +346,7 @@ footer {
 .footer_middle {
     min-height: 89px;
     background: linear-gradient(to top, #44BA5B, #3D9B50);
-   }
+}
 
 
 .img-list {
@@ -374,4 +371,4 @@ footer {
 .footer_bottom p {
     font-size: 14px;
     line-height: 57px;
-   }
+}
