@@ -21,6 +21,11 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
     background: #37a14c;
 }
 
+.resize {
+    width: 982px;
+    margin: 0 auto;
+}
+
 .header-top ul {
     float: right;
     padding-top: 24px;
@@ -29,11 +34,6 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
 
 .header-top li {
     display: inline-block;
-}
-
-.resize {
-    width: 982px;
-    margin: 0 auto;
 }
 
 .server {
@@ -122,7 +122,6 @@ a.logo_left {
     font-size: 20px;
 }
 
-
 .contacts p {
     padding-left: 30px;
     color: #0f680e;
@@ -156,12 +155,6 @@ a.logo_left {
     float: left;
 }
 
-ul > li a.active {
-    color: #ffffff;
-    text-decoration: none;
-    background: linear-gradient(to top, #4cda67, #34a34a);
-}
-
 .buttons a {
     display: block;
     margin: 15px 20px;
@@ -184,32 +177,46 @@ a.logo_right {
     padding: 34px 0;
 }
 
-.header_bottom {
-    min-height: 45px;
-    background: linear-gradient(to top, #309444, #51c066);
+.header-bottom {
+	min-height:45px;
+	background: linear-gradient(to top, #329546, #45BC5C);
+	border-left:1px solid #57E974;
+	border-right:1px solid #247634;
 }
 
-.menu-main li {
-    float: left;
-    width: 20%;
-    text-align: center;
-    line-height: 45px;
-    border-right: 1px solid #57e974;
-    border-left: 1px solid #247634;
-    box-sizing: border-box;
+.header-bottom menu {
+	min-height:45px;
+	border-left:1px solid #57E974;
+	border-right:1px solid #247634;
 }
 
-.header_bottom a {
-    display: block;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
+.header-bottom menu li {
+	list-style:none;
+	float:left;
+	line-height:45px;
+	width:20%;
+	text-align:center;
+	border-left:1px solid #247634;
+	border-right:1px solid #57E974;
+	box-sizing:border-box;
 }
 
-.header_bottom a:hover {
-    background: linear-gradient(to top, #2DA145, #46DA62);
-    color: #FCC312;
+.header-bottom menu li .active {
+	background: linear-gradient(to top, #2DA045, #46DA62);
+	color:#FEC216;
 }
+
+.header-bottom menu li a {
+	text-decoration:none;
+	display:block;
+	color:#fff;
+}
+
+.header-bottom menu li a:hover {
+	background: linear-gradient(to top, #2DA045, #46DA62);
+	color:#FEC216;
+}
+
 
 aside {
     float: left;
@@ -217,13 +224,13 @@ aside {
     padding-top: 12px;
 }
 
-menu li {
+aside menu li {
     padding: 15px 0;
     font-size: 20px;
     border-bottom: 1px solid #EAEAEA;
 }
 
-menu li li {
+aside menu li li {
     font-size: 16px;
     color: red;
     border-bottom: none;
@@ -347,7 +354,6 @@ footer {
     min-height: 89px;
     background: linear-gradient(to top, #44BA5B, #3D9B50);
 }
-
 
 .img-list {
     display: flex;
