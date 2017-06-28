@@ -180,8 +180,6 @@ a.logo_right {
 .header-bottom {
 	min-height:45px;
 	background: linear-gradient(to top, #329546, #45BC5C);
-	border-left:1px solid #57E974;
-	border-right:1px solid #247634;
 }
 
 .header-bottom menu {
