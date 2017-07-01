@@ -26,16 +26,6 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
     margin: 0 auto;
 }
 
-.header-top ul {
-    float: right;
-    padding-top: 24px;
-    width: 178px;
-}
-
-.header-top li {
-    display: inline-block;
-}
-
 .server {
     float: left;
     font-size: 16px;
@@ -43,63 +33,42 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
     color: #ffffff;
 }
 
-.server li {
+
+.header-top ul {
+    float: right;
+    padding: 8px 0;
+}
+
+.header-top ul li {
     display: inline-block;
 }
 
-.server a {
+.header-top ul a {
+    position: relative;
     display: block;
+    width: 28px;
+    height: 28px;
+    text-indent: -9000px;
 }
 
-a.vk, a.fb, a.gb {
-	text-indent: -9000px;
-}
-
-.vk {
-    position: relative;
-    display: inline-block;
-    left: 80px;
-}
-
-.vk:before {
+.header-top ul a:before {
     content: "";
     position: absolute;
+    width: 28px;
+    height: 28px;
     left: 0;
-    top: -16px;
-    width: 28px;
-    height: 28px;
-    background: url(../images/sprite.png);
+    top: 0;
+    background: url(../images/sprite.png) no-repeat 0 0;
 }
 
-.fb {
-    position: relative;
-    display: inline-block;
-    left: 40px;
- }
 
-.fb:before {
-    content: "";
-    position: absolute;
-    left: 28px;
-    top: -16px;
-    width: 28px;
-    height: 28px;
-    background: url(../images/sprite.png) no-repeat -30px 0;
+.header-top ul a.fb:before {
+    background-position: -30px 0;
 }
 
-.gb {
-    position: relative;
-    display: inline-block;
-}
 
-.gb:before {
-    content: "";
-    position: absolute;
-    left: 56px;
-    top: -16px;
-    width: 28px;
-    height: 28px;
-    background: url(../images/sprite.png) no-repeat -60px 0;
+.header-top ul a.gb:before {
+    background-position: -60px 0;
 }
 
 a.logo_left {
@@ -205,9 +174,9 @@ a.logo_right {
 }
 
 .header-bottom menu li a {
+    display:block;
+    color:#fff;
 	text-decoration:none;
-	display:block;
-	color:#fff;
 }
 
 .header-bottom menu li a:hover {
@@ -233,8 +202,12 @@ aside menu li li {
     color: red;
     border-bottom: none;
     padding-top: 5px;
-    padding-bottom: 0;
+    padding-bottom: 5px;
     padding-left: 20px;
+}
+
+aside menu li ul {
+    margin: 0 0 -6px;
 }
 
 h1 {
