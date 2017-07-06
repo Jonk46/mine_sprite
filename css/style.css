@@ -10,6 +10,10 @@ form, menu, iframe { display:block; margin:0; padding:0; border:none;}
 ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
 * { outline:none;}
 
+.minewrapper {
+    min-width: 1050px;
+}
+
 .clear:after {
     content: "";
     display: block;
@@ -24,6 +28,7 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
 .resize {
     width: 982px;
     margin: 0 auto;
+    padding:0 20px;
 }
 
 .server {
@@ -146,7 +151,7 @@ a.logo_right {
 }
 
 .header-bottom {
-	min-height:45px;
+    overflow: hidden;
 	background: linear-gradient(to top, #329546, #45BC5C);
 }
 
