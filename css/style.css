@@ -1,9 +1,9 @@
 html { margin:0; padding:0;}
-body { margin:0; padding:0; font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-size: 16px}
+body { margin:0; padding:0; font-family: 'Open Sans', sans-serif; font-size: 16px}
 p { margin:0; padding:0;}
 a img { border: none;}
 a {text-decoration: none; display: block}
-h1, h2, h3, h4, h5, h6 { margin:0; padding:0; font-weight:bold;}
+h1, h2, h3, h4, h5, h6 { margin:0; padding:0; font-family: 'Scada', sans-serif;}
 strong { font-weight:bold;}
 em { font-style:italic;}
 form, menu, iframe { display:block; margin:0; padding:0; border:none;}
@@ -65,11 +65,9 @@ ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
     background: url(../images/sprite.png) no-repeat 0 0;
 }
 
-
 .header-top ul a.fb:before {
     background-position: -30px 0;
 }
-
 
 .header-top ul a.gb:before {
     background-position: -60px 0;
@@ -93,6 +91,7 @@ a.logo_left {
     min-width: 178px;
     color: #0f680e;
     font-size: 20px;
+    font-weight: 300;
 }
 
 .contacts p {
@@ -180,6 +179,7 @@ a.logo_right {
 .header-bottom menu li a {
     display:block;
     color:#fff;
+    font-weight: 800;
 	text-decoration:none;
 }
 
@@ -188,10 +188,10 @@ a.logo_right {
 	color:#FEC216;
 }
 
-
 aside {
     float: left;
     width: 230px;
+    font-family: 'Lobster', cursive;
     padding-top: 12px;
 }
 
@@ -268,6 +268,7 @@ section.bottom {
   }
 
 .f_game_block .text_game {
+    font-family: 'Scada', sans-serif;;
     padding-top: 10px;
     padding-right: 5px;
     color: #ffffff;
